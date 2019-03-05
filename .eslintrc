@@ -1,0 +1,22 @@
+{
+    "extends": [
+        "plugin:shopify/esnext",
+        "plugin:shopify/node",
+        "plugin:shopify/mocha"
+    ],
+    "rules": {
+        "quotes": ["error", "double"],
+        "no-console": "warn",
+        "strict": ["error", "global"],
+        "prefer-const": "off",
+        "indent": ["error", 4, {"FunctionDeclaration": {"parameters": "first"}}],
+        "indent-legacy": "off",
+        "array-bracket-spacing": ["error", "always", { "arraysInArrays": false, "objectsInArrays": false }],
+        "object-curly-spacing": ["error", "always"],
+        "babel/object-curly-spacing": ["error", "always"],
+        "prefer-arrow-callback": "off",
+        "no-empty-function": ["error", { "allow": ["functions", "arrowFunctions"] }],
+        "shopify/sinon-prefer-meaningful-assertions": "off",
+        "no-param-reassign": "off"
+    }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "eslint-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-plugin-shopify": "^26.3.0"
+  }
+}
