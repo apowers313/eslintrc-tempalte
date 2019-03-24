@@ -9,7 +9,7 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "eslint": "^5.14.1",
+    "eslint": "^5.15.3",
     "eslint-plugin-shopify": "^26.3.0"
   }
 }
