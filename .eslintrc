@@ -17,6 +17,8 @@
         "prefer-arrow-callback": "off",
         "no-empty-function": ["error", { "allow": ["functions", "arrowFunctions"] }],
         "shopify/sinon-prefer-meaningful-assertions": "off",
-        "no-param-reassign": "off"
+        "no-param-reassign": "off",
+        "id-length": "off",
+        "no-warning-comments": "warn"
     }
 }
